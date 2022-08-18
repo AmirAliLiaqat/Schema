@@ -1,0 +1,122 @@
+body{
+  background-color: #ddebe8;
+}
+.clearboth{
+  clear: both;
+}
+/* Typegraphy */
+a{
+  text-decoration: underline;
+  font-weight: bold;
+  color:#000;
+}
+a:hover{
+  color:#000;
+  text-decoration: none;
+}
+
+
+.site-orange-btn{
+  border:2px solid #000;
+  background-color: #feb7ac;
+  color:#000;
+  padding:10px;
+  font-size:13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.site-orange-btn:hover{
+  background-color: #000;
+  color:#feb7ac;
+}
+/******* end typegraphy**************/
+
+header .container-fluid{
+padding:0px!important;
+}
+.page-content .content-wrapper{
+  padding:200px 0;
+  min-height: 90vh;
+}
+.content-wrapper h2{
+  font-weight: 700;
+}
+.schema-content .container-fluid{
+  max-width:1600px;
+}
+.schema-content .schema_box_containers li{
+  list-style-type: none;
+  margin:0px;
+  padding:0px;
+  background-color: #cedcd9;
+  display: block;
+}
+.schema-content .schema_box_containers.schema_title li{
+  background-color:transparent;
+  font-size:14px;
+}
+.schema-content .schema_box_containers .li_container{
+  float: left;
+  padding:1%;
+  width:17.5%;
+  margin-right:1%;
+}
+.schema-content .schema_box_containers .double_container{
+  width:44.5%;
+  float:left;
+}
+.schema-content .schema_box_containers .double_container .li_double_contaner{
+  float: left;
+  padding:2.4%;
+  width:42%;
+  margin-right:2%;
+}
+.schema-content .schema_box_containers .double_container .li_double_contaner.double_container_icon{
+  width:3%;
+}
+.schema_json{
+  position: relative;
+  background-color: #cedcd9;
+  padding:20px;
+}
+.schema_button{
+  position: absolute;
+  top:20px;
+  right:20px;
+}
+.import_schema_body{
+  background-color: #9aa4a2;
+}
+.import-page-content .content-wrapper{
+  background-color: #ddebe8;
+  padding:40px;
+}
+.import_schema_textarea_container{
+  background-color: #fff;
+  width:100%;
+}
+.import_schema_textarea_container textarea{
+  min-height: 40vh;
+  width:95%;
+  border:none;
+}
+.add_schema_values{
+  display:none;
+}
+.add_schema_values.active{
+  display: inline;
+}
+.view_in_mobile{
+  display: none;  
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height: 100vh;
+  background-color: #ddebe8;
+}
+@media only screen and (min-width: 980px) {
+  .view_in_mobile{
+    display: none;
+  }
+}
